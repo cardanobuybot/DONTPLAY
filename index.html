@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DONTPLAY ($DONTPLAY) — Solana Token</title>
+  <meta name="description" content="DONTPLAY ($DONTPLAY) on Solana. Don't play games." />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="DONTPLAY ($DONTPLAY) — Solana Token" />
+  <meta property="og:description" content="DONTPLAY ($DONTPLAY) on Solana. Don't play games." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dontplaygameswithpresidenttrump.ru" />
+  <!-- Put your preview image here -->
+  <meta property="og:image" content="og.png" />
+
+  <link rel="icon" href="favicon.ico" />
+</head>
+
+<body>
+  <header class="wrap header">
+    <div class="logo">
+      <div class="mark">DP</div>
+      <div class="brand">
+        <div class="name">DONTPLAY</div>
+        <div class="ticker">$DONTPLAY · Solana</div>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#how">How to buy</a>
+      <a href="#links">Links</a>
+      <a class="btn small" href="#cta">Get $DONTPLAY</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-left">
+        <div class="tag">Solana meme token</div>
+        <h1>Don’t play games.</h1>
+        <p class="lead">
+          $DONTPLAY is a Solana token built for the meme, the momentum, and the community.
+          No promises. Just a narrative.
+        </p>
+
+        <div class="actions">
+          <a class="btn" id="buyBtn" href="#" target="_blank" rel="noreferrer">Buy</a>
+          <a class="btn ghost" id="chartBtn" href="#" target="_blank" rel="noreferrer">Chart</a>
+          <button class="btn ghost" id="copyMintBtn" type="button">Copy mint</button>
+        </div>
+
+        <div class="mint-box">
+          <div class="mint-label">Mint (paste into Phantom / Jupiter / Birdeye):</div>
+          <div class="mint-row">
+            <code id="mintText">PASTE_MINT_ADDRESS_HERE</code>
+          </div>
+          <div class="note">
+            Tip: after launch, replace links below with pump.fun / Jupiter / Birdeye.
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="poster">
+          <!-- Put your poster image file as poster.jpg/png in the repo -->
+          <img src="poster.jpg" alt="DONTPLAY poster" />
+        </div>
+
+        <div class="stats card">
+          <div class="stat">
+            <div class="k">Ticker</div>
+            <div class="v">$DONTPLAY</div>
+          </div>
+          <div class="stat">
+            <div class="k">Chain</div>
+            <div class="v">Solana</div>
+          </div>
+          <div class="stat">
+            <div class="k">Status</div>
+            <div class="v" id="statusText">Pre-launch</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>
+        DONTPLAY is a community meme token on Solana. The site is a simple hub:
+        mint, buy link, chart link, and socials.
+      </p>
+
+      <div class="bullets">
+        <div class="bullet">
+          <div class="dot"></div>
+          <div>
+            <strong>Simple:</strong> one page, fast loading, mobile-friendly.
+          </div>
+        </div>
+        <div class="bullet">
+          <div class="dot"></div>
+          <div>
+            <strong>Transparent:</strong> publish the mint address and links.
+          </div>
+        </div>
+        <div class="bullet">
+          <div class="dot"></div>
+          <div>
+            <strong>Community-first:</strong> socials drive the story.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="grid">
+      <div class="card step">
+        <h3>1) Get SOL</h3>
+        <p>Top up Phantom/Solflare with a bit of SOL for swaps and fees.</p>
+      </div>
+      <div class="card step">
+        <h3>2) Open Buy link</h3>
+        <p>Use pump.fun or Jupiter swap. Always verify the mint address.</p>
+      </div>
+      <div class="card step">
+        <h3>3) Verify mint</h3>
+        <p>Copy mint from this page and compare before buying.</p>
+      </div>
+    </section>
+
+    <section id="links" class="card">
+      <h2>Links</h2>
+
+      <div class="links">
+        <a class="link" id="pumpLink" href="#" target="_blank" rel="noreferrer">
+          <span>pump.fun</span><span class="arrow">↗</span>
+        </a>
+        <a class="link" id="jupiterLink" href="#" target="_blank" rel="noreferrer">
+          <span>Jupiter swap</span><span class="arrow">↗</span>
+        </a>
+        <a class="link" id="birdeyeLink" href="#" target="_blank" rel="noreferrer">
+          <span>Birdeye chart</span><span class="arrow">↗</span>
+        </a>
+        <a class="link" id="tgLink" href="#" target="_blank" rel="noreferrer">
+          <span>Telegram</span><span class="arrow">↗</span>
+        </a>
+        <a class="link" id="xLink" href="#" target="_blank" rel="noreferrer">
+          <span>X (Twitter)</span><span class="arrow">↗</span>
+        </a>
+      </div>
+
+      <div class="disclaimer">
+        <strong>Disclaimer:</strong> $DONTPLAY is a meme token for entertainment purposes only.
+        No financial advice.
+      </div>
+    </section>
+
+    <section id="cta" class="card cta">
+      <h2>Ready?</h2>
+      <p>Launch the token, paste the mint, update the links — and ship.</p>
+      <div class="actions">
+        <a class="btn" id="ctaBuyBtn" href="#" target="_blank" rel="noreferrer">Buy $DONTPLAY</a>
+        <button class="btn ghost" id="copyMintBtn2" type="button">Copy mint</button>
+      </div>
+      <div class="footer">
+        © <span id="year"></span> DONTPLAY
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
